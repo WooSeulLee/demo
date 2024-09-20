@@ -7,7 +7,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class CarVO {
+public class CarInfoVO {
 	private int ciNum;
 	private String ciName;
 	private String ciYear;

@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class ViewsController {
 
-	@GetMapping("/")
+	@GetMapping("/") //컨트롤러 외에는 getMapping 동작x
 	public String home() {
 		return "veiws/index";
 	}
